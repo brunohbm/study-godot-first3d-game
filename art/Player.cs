@@ -11,8 +11,14 @@ public partial class Player : CharacterBody3D
     // The downward acceleration when in the air, in meters per second squared.
     [Export]
     public int FallAcceleration { get; set; } = 75;
+    [Export]
+    public int JumpImpulse { get; set; } = 20;
+    [Export]
+    public int BounceImpulse { get; set; } = 16;
 
     private Vector3 _targetVelocity = Vector3.Zero;
+    [Signal]
+    public delegate void HitEventHandler();
 
     public override void _PhysicsProcess(double delta)
     {
@@ -44,5 +50,53 @@ public partial class Player : CharacterBody3D
             direction = direction.Normalized();
             GetNode<Node3D>("Pivot").LookAt(Position + direction, Vector3.Up);
         }
+
+        _targetVelocity.X = direction.X * Speed;
+        _targetVelocity.Z = direction.Z * Speed;
+
+        // Vertical velocity
+        if (!IsOnFloor()) // If in the air, fall towards the floor. Literally gravity
+        {
+            _targetVelocity.Y -= FallAcceleration * (float)delta;
+        }
+
+        // Moving the character
+        Velocity = _targetVelocity;
+        MoveAndSlide();
+
+        if (IsOnFloor() && Input.IsActionJustPressed("jump"))
+        {
+            _targetVelocity.Y = JumpImpulse;
+        }
+
+        for (int index = 0; index < GetSlideCollisionCount(); index++)
+        {
+            // We get one of the collisions with the player.
+            KinematicCollision3D collision = GetSlideCollision(index);
+
+            // If the collision is with a mob.
+            if (collision.GetCollider() is Mob mob)
+            {
+                // We check that we are hitting it from above.
+                if (Vector3.Up.Dot(collision.GetNormal()) > 0.1f)
+                {
+                    // If so, we squash it and bounce.
+                    mob.Squash();
+                    _targetVelocity.Y = BounceImpulse;
+                }
+            }
+        }
+    }
+
+    private void Die()
+    {
+        EmitSignal(SignalName.Hit);
+        QueueFree();
+    }
+
+    // We also specified this function name in PascalCase in the editor's connection window
+    private void OnMobDetectorBodyEntered(Node3D body)
+    {
+        Die();
     }
 }

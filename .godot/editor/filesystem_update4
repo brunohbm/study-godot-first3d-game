@@ -1,6 +1,7 @@
-res://art/body.material
-res://art/eye.material
-res://art/mob_eye.material
-res://art/pupil.material
 res://art/main.tscn
 res://art/player.tscn
+res://art/mob.tscn
+res://art/Main.cs
+res://art/Mob.cs
+res://art/Player.cs
+res://art/ScoreLabel.cs

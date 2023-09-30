@@ -1,0 +1,17 @@
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).deps.json
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).runtimeconfig.json
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).dll
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\bin\Debug\Squash the Creeps (3D).pdb
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).csproj.AssemblyReference.cache
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).AssemblyInfoInputs.cache
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).AssemblyInfo.cs
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).csproj.CoreCompileInputs.cache
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).csproj.CopyComplete
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).dll
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\refint\Squash the Creeps (3D).dll
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).pdb
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\Squash the Creeps (3D).genruntimeconfig.cache
+C:\Users\Bruno Henrique\Desktop\study-godot\repositories\study-godot-first3d-game\.godot\mono\temp\obj\Debug\ref\Squash the Creeps (3D).dll

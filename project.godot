@@ -11,8 +11,14 @@ config_version=5
 [application]
 
 config/name="Squash the Creeps (3D)"
-config/features=PackedStringArray("4.1")
+run/main_scene="res://art/main.tscn"
+config/features=PackedStringArray("4.1", "C#")
 config/icon="res://icon.png"
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=540
 
 [dotnet]
 
@@ -54,6 +60,14 @@ jump={
 , Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource_name":"","device":-1,"button_index":0,"pressure":0.0,"pressed":false,"script":null)
 ]
 }
+
+[layer_names]
+
+3d_physics/layer_1="player"
+3d_physics/layer_2="enemy"
+3d_physics/layer_3="floor"
+3d_physics/size/viewport_height=648
+3d_physics/size/viewport_width=1152
 
 [rendering]
 

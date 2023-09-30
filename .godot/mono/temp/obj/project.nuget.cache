@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "dsaJCGDwDeKuK4BiOaBk8Ndm3xKOlwyY1Or7kxwV+FxL01ZmzHuGzd3DFllZ5Hyb+BrmZouQdr8BiolUGWXzBw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bruno Henrique\\Desktop\\study-godot\\repositories\\study-godot-first3d-game\\Squash the Creeps (3D).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno Henrique\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\Bruno Henrique\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\Bruno Henrique\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512",
+    "C:\\Users\\Bruno Henrique\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Bruno Henrique\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Bruno Henrique\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
