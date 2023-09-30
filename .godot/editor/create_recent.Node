@@ -1,4 +1,8 @@
+AnimationPlayer
+AnimationTree
+AudioStreamPlayer
 Label
+ColorRect
 Control
 CollisionShape3D
 Area3D
